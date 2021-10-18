@@ -77,10 +77,14 @@ nav{
 
 /* MAIN */
 
-.container{
+.container-top{
     width: 80%;
     margin: auto;
     text-align: center;
+}
+.container{
+    width: 65%;
+    margin: auto;
 }
 .jumbotron{
     background-color: #b4d0e7;
@@ -100,6 +104,7 @@ nav{
 .advantages .col-image{
     width: 70%;
     position: relative;
+    margin-bottom: 50px;
 }
 .advantages .col-text{
     width: 30%;
@@ -109,7 +114,6 @@ nav{
 }
 img{
     width: 100%;
-
 }
 .text{
     margin-bottom: 40px;
@@ -121,4 +125,30 @@ img{
 }
 .arrow{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: left;
+    padding: 50px 0px;
+}
+.fatturazione{
+    vertical-align: middle;
+}
+.square{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.square-blu{
+    border: 5px solid #0061ff;
+}
+.square-gray{
+    border: 1px solid gray;
+}
+.periodo{
+    margin-right: 20px;
 }
