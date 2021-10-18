@@ -9,6 +9,7 @@ body{
     font-weight: bold;
 }
 
+
 /* Layout generic classes */
 .col{
     float: left;
@@ -22,7 +23,7 @@ body{
 /* HEADER */
 header{
     height: 100px;
-    background-color: wheat;
+    background-color: white;
 }
 nav{
     line-height: 100px;
@@ -70,5 +71,35 @@ nav{
 .btn-blue{
     padding: 7px 18px;
     background-color: #0061ff;
-    color: white;
+}
+
+/* MAIN */
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.jumbotron{
+    background-color: #b4d0e7;
+    width: 100%;
+}
+.jumbotron-content{
+    padding: 80px 0px;
+    text-align: left;
+}
+.jumbotron-content h1{
+    font-size: 85px;
+}
+
+/* Advantages */
+
+.advantages .col-image{
+    width: 70%;
+    position: relative;
+}
+.advantages .col-text{
+    width: 30%;
+    padding-right: 30px;
+    text-align: left;
 }
