@@ -71,8 +71,12 @@ nav{
     color: white;
     text-decoration: none;
 }
-.btn-big{
+.btn-medium{
     padding: 10px 20px;
+}
+.btn-big{
+    padding: 10px 40px;
+    text-align: center;
 }
 
 /* MAIN */
@@ -151,4 +155,43 @@ h2{
 }
 .periodo{
     margin-right: 20px;
+}
+/* COLONNE MAIN */
+.benefits{
+    width: 28%;
+    height: 600px;
+    border: 1px solid #d4d4d7;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+.head{
+    border-bottom: 1px solid #d4d4d7;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+/* CONTENUTO COLONNE */
+.benefits-col{
+    padding: 30px;
+}
+h3{
+    font-size: 28px;
+    margin: 8px 0px;
+}
+h4{
+    margin: 12px 0px;
+}
+.color-mese{
+    color: #697986;
+}
+.top-lyst{
+    margin-top: 50px;
+    list-style-type: none;
+}
+li{
+    font-size: 14px;
+    line-height: 50px;
+}
+ul{
+    margin-bottom: 50px;
 }
