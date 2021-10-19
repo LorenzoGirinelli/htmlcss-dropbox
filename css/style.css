@@ -330,3 +330,28 @@ p{
 .box-yellow{
     background-color: #ffd830;
 }
+/* PROVA */
+.prova{
+    width: 100%;
+}
+.box-left{
+    width: 60%;
+    padding: 100px 250px;
+    height: 300px;
+    background-color: #b4d0e7;
+    font-size: 45px;
+    /* line-height: 300px; */
+    text-align: left;
+    color: #61082b;
+}
+.box-right{
+    width: 40%;
+    height: 300px;
+    background-color: #b4d0e7;
+    text-align: center;
+    line-height: 300px;
+}
+.text{
+    background-color: white;
+    padding: 10px 55px;
+}
