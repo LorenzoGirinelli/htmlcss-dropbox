@@ -380,7 +380,6 @@ footer{
     color: white;
 }
 .bottom{
-    width: 18%;
     display: inline-block;
 }
 .link-lyst{
@@ -393,4 +392,10 @@ footer{
 .color-link{
     text-decoration: none;
     color: white;
+}
+.line-large{
+    width: 140px;
+    height: 1px;
+    border: 1px solid #d4d4d7;
+    margin-left: 100px;
 }
