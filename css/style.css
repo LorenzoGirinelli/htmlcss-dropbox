@@ -367,9 +367,30 @@ p{
     font-size: 16px;
 }
 .domande-frequenti{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .fa-chevron-down{
-    text-align: right;
     float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+.bottom{
+    width: 18%;
+    display: inline-block;
+}
+.link-lyst{
+    list-style-type: none;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-left: 100px;
+    line-height: 10px;
+}
+.color-link{
+    text-decoration: none;
+    color: white;
 }
