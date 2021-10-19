@@ -46,7 +46,7 @@ nav{
 }
 .left-menu li{
     display: inline-block;
-    margin: 3px 20px;
+    margin: -10px 20px;
 }
 .left-menu a{
     text-decoration: none;
@@ -58,7 +58,7 @@ nav{
 }
 .right-menu li{
     display: inline-block;
-    margin: 3px 20px;
+    margin: -10px 20px;
 }
 .right-menu a{
     text-decoration: none;
@@ -333,6 +333,7 @@ p{
 /* PROVA */
 .prova{
     width: 100%;
+    margin-bottom: 120px;
 }
 .box-left{
     width: 60%;
@@ -354,4 +355,17 @@ p{
 .text{
     background-color: white;
     padding: 10px 55px;
+}
+.lyst-domande-frequenti{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 60px;
+}
+.border{
+    border-top: 1px solid #e2e2e4;
+    border-bottom: 1px solid #e2e2e4;
+    font-size: 16px;
+}
+.fa-chevron-down{
+    align-items: right;
 }
