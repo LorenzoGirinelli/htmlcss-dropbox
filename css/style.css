@@ -197,7 +197,7 @@ ul{
     margin-bottom: 50px;
 }
 .icon{
-    margin-left: -10px;
+    margin-left: -15px;
 }
 .buy{
     padding-top: 40px;
@@ -252,13 +252,26 @@ ul{
     width: 50%;
     margin-bottom: 50px;
 }
-partner .col-text{
+.partner .col-text{
     width: 45%;
-    margin-left: 40px;
+    padding-left: 40px;
 }
-p{font-weight: normal;}
+p{
+    font-weight: normal;
+    padding-top: 10px;
+}
 .business{
     width: 28%;
-    border: 1px solid #d4d4d7;
     margin-right: 5%;
+    padding-bottom: 120px;
+}
+.color-paper{
+    color: black;
+}
+.main-bottom{
+    width: 50%;
+    text-align: left;
+}
+.color-a{
+    color: #0765ff;
 }
