@@ -366,6 +366,10 @@ p{
     border-bottom: 1px solid #e2e2e4;
     font-size: 16px;
 }
+.domande-frequenti{
+    margin-bottom: 50px;
+}
 .fa-chevron-down{
-    align-items: right;
+    text-align: right;
+    float: right;
 }
